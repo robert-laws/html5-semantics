@@ -7,6 +7,7 @@ app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname + '/index.html'));
 });
 
+app.use(express.static('files'));
 app.use('/img',express.static(path.join(__dirname, 'public/images')));
 app.use('/js',express.static(path.join(__dirname, 'public/scripts')));
 app.use('/css',express.static(path.join(__dirname, 'public/styles')));
