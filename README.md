@@ -58,3 +58,23 @@ Headings ``h1`` - ``h6`` are semantically very imporant to organize the content 
 ## Navigation
 
 ``nav`` element - collection of links that have something to do with page/site navigation. Use of the ``ul`` and ``li`` indicate that the links within the navigation should be grouped together.
+
+## Headers
+
+``header`` is best used for introductory content.
+
+## Footers
+
+``footer`` usually has content about its section including who wrote it, copyright, and other authoring information.
+
+## Figure and Figcaption
+
+``figure`` and ``figcaption`` can be used for visual content and optionally a caption that describes the figure. Any data that illustrates the content can be included in a figure element.
+
+## Aside
+
+``aside`` is content that is not directly related to the surrounding content.
+
+## Div element
+
+``div`` elements has no semantic meaning. It should be used as element of last resort, when no other elements are suitable.
