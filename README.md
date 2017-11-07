@@ -54,3 +54,7 @@ Sectioning content - defines the scope of new sections within a document.
 ## Using Headings Properly
 
 Headings ``h1`` - ``h6`` are semantically very imporant to organize the content outline of the page. Establishes the document outline for browsers. With each heading a new implicit section is created.
+
+## Navigation
+
+``nav`` element - collection of links that have something to do with page/site navigation. Use of the ``ul`` and ``li`` indicate that the links within the navigation should be grouped together.
