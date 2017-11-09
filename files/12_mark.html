@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mark Element</title>
+  <style>
+    section div {
+      margin: 20px;
+      padding: 0 12px;
+      border-radius: 8px;
+      border: 1px solid #999;
+      background-color: rgb(230, 230, 230);
+    }
+
+    section div blockquote {
+      margin: 0 60px 0 25px;
+      padding: 2px;
+      overflow: auto;
+    }
+
+    q {
+      display: block;
+      background-color: #BBB;
+      padding: 8px;
+      border-radius: 6px 6px 0 0;
+      font-size: 1.2em;
+    }
+
+    section div blockquote footer {
+      text-align: right;
+      padding: 8px 12px;
+      background-color: #222;
+      color: #FFF;
+      border-radius: 0 0 6px 6px;
+      font-size: 1.2em;
+    }
+
+    .author {
+      font-style: normal;
+    }
+  </style>
+</head>
+<body>
+  <h1>HTML5 Mark</h1>
+  <main>
+    <article>      
+      <section>
+        <h2>Example - Search Matches</h2>
+        <p>Highlight that was not originally included, but added by the author to bring attention to the text.</p>
+        <div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque inventore quos voluptates delectus officia ab fuga alias nesciunt, sit a magni, excepturi <mark>recusandae</mark> dolorem voluptate iure aliquid voluptatibus et, rem nulla natus sint perspiciatis beatae! Exercitationem, mollitia quia temporibus iure quas dignissimos porro <mark>recusandae</mark> aspernatur. Quasi voluptatum iure in nisi, dolore minus fugiat repellat consectetur totam quo fugit architecto voluptatem aut. Perspiciatis sapiente eos enim. Maiores <mark>recusandae</mark>, qui mollitia quia eius quo commodi debitis eos obcaecati?</p>
+        </div>
+      </section>
+      
+      <section>
+        <h2>Example - Blockquote</h2>
+        <p>Closer conformance in using the mark element inside a quotation.</p>
+          <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi sapiente neque dolorem suscipit maiores rerum ex vitae? Ducimus deleniti quod unde, labore natus eos voluptatum error, voluptate alias quas dolor.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur facilis iusto tempore dicta delectus, eligendi quod maxime eius repellat, nam esse illo reiciendis, voluptatem nisi corrupti incidunt facere laboriosam quaerat ab odio eos numquam. Ratione error nostrum reprehenderit aperiam repudiandae.</p>
+            <blockquote>
+              <q>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est accusantium sunt, pariatur eum in iusto quo consequuntur, odit molestias explicabo nulla quia beatae similique corporis sint, <mark>illo nisi quod velit!</mark> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate deleniti autem mollitia rerum quia explicabo minima eligendi?</q>
+              <footer><cite><span class="author">Bob Cobb</span></cite> &#8212; Guide to Accessible Parks</footer>
+            </blockquote>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, similique voluptas quibusdam aperiam aliquid accusantium dolores eligendi itaque quidem ut id, eveniet dolore, dolor nulla! In pariatur officiis reiciendis. Aperiam doloremque sint dolore quis voluptates obcaecati. Soluta cum autem dolores!</p>
+          </div>     
+      </section>
+    </article>
+  </main>  
+</body>
+</html>

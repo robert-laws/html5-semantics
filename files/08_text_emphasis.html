@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Correct Text Emphasis</title>
+  <style>
+    section div {
+      margin: 20px;
+      padding: 0 12px;
+      border-radius: 8px;
+      border: 1px solid #999;
+      background-color: rgb(230, 230, 230);
+    }
+
+    .pubdate {
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <h1>HTML5 Text Emphasis - the correct way</h1>
+  <main>
+    <article>      
+      <section>
+        <h2>Example - Address in footer</h2>
+        <p>Use the 'i' and 'b' elements to indicate an alternate voice, not just for presentation.</p>
+        <div>
+          <p><b>Green Park</b></p>
+          <p>626 North Road<br>
+          Highpark, CA 95251</p>
+          <p>634.737.7488<br>
+          634.737.6341 <i>(daily park conditions)</i></p>
+        </div>
+      </section>
+      
+      <section>
+        <h2>Example - Date of post</h2>
+        <p>If only changing the presentation of content on the page, use CSS.</p>
+        <div>
+          <p>Event: Green Park Run</p>
+          <p class="pubdate">posted on January 23rd, 2017</p>
+        </div>        
+      </section>
+
+      <section>
+          <h2>Example - Draw attention to important informtion</h2>
+          <p>Use the 'strong' and 'em' elements to give a semantic meaning to the content - adding purposeful emphasis.</p>
+          <div>
+            <p>Green Park Run Safety Information</p>
+            <p>There are wild animals that sometimes enter the park. <strong>Use extreme caution if you encounter any animals that appear to be dangerous.</strong></p>
+            <p>While there has not been any reported animal attacks over the past 10 years, use common sense when moving throgh the park. <em>Before spending extended time in the park check the seasonal animal forecast!</em></p>
+          </div>        
+        </section>
+    </article>
+  </main>  
+</body>
+</html>
