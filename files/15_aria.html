@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Aria Landmark Roles</title>
+  <style>
+    section div {
+      margin: 20px;
+      padding: 0 12px;
+      border-radius: 8px;
+      border: 1px solid #999;
+      background-color: rgb(230, 230, 230);
+    }
+  </style>
+</head>
+<body>
+  <header id="mainHeader" role="banner">
+    <h1>HTML5 Aria Landmark Roles</h1>
+    <nav role="navigation">
+      <ul>
+        <li>
+          <a href="#">link</a>
+          <a href="#">link</a>
+          <a href="#">link</a>
+          <a href="#">link</a>
+          <a href="#">link</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main role="main">
+    <article role="article">      
+      <section>
+        <h2>Example - Landmark Roles</h2>
+        <p>Are the most widely used roles for accessibility needs.</p>
+        <div>
+          
+        </div>
+      </section>
+      
+      <aside role="complementary">
+        Extra information
+      </aside>
+    </article>
+  </main>
+
+  <footer role="contentinfo">
+    <p>Contact Information...</p>    
+  </footer>
+</body>
+</html>
